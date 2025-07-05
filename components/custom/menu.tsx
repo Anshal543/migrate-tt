@@ -285,7 +285,7 @@ const Menu = () => {
               <div
                 className="menu-link-item overflow-hidden py-2"
                 key={index}
-                ref={(el) => (linkRefs.current[index] = el)}
+                ref={(el) => {linkRefs.current[index] = el;}}
               >
                 <div className="menu-link-item-holder relative">
                   <Link

@@ -8,7 +8,7 @@ import { Menu, X } from "lucide-react";
 import gsap from "gsap";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "@/ui/theme-toggle";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 const navItems = [
   { href: "#hero", label: "Home" },
